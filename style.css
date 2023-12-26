@@ -1,0 +1,401 @@
+/*-----------------------------------------------------------------------------------
+
+ Theme Name: Artificial Intelligence
+ Theme URI: https://muhammad-ali-16.github.io/Digital-Matrix/
+ Author:Muhammad Ali Raza
+ Version: 1.0
+ 
+-----------------------------------------------------------------------------------*/
+
+
+/* =================Basic-Styling================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: 66px;
+    color: #fabf68;
+    line-height: 1.3;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fabf68;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    color: #dbc3a9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 21px;
+}
+
+/* =================Header-Section================= */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav.navbar.bg-body-tertiary {
+    background: linear-gradient(#18191d, #18191d);
+}
+
+.navbar.bg-body-tertiary .navbar-nav .nav-link {
+    color: #ffe4cd;
+}
+
+.logo-h {
+    margin: -30px 0 0 55px;
+}
+
+.navbar-nav .nav-link {
+    border-bottom: 3px solid#18191d;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    border-bottom: 3px solid #fabf68;
+}
+
+.nav-last {
+    border-right: 3px solid #ffe4cd;
+}
+
+.nav-button {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: -5px;
+    background: #fabf68;
+}
+
+.collapse-icon {
+    font-size: 30px;
+    color: #fabf68;
+}
+
+.collapse-icon:hover {
+    color: #ffe4cd;
+}
+
+/* =================After-Collapsing================= */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top right, #ffe4cd 0%, #fabf68 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #18191d;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #fffbf7;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* =================Hero-Section================= */
+
+.hero-section-main {
+    height: auto;
+    width: 100%;
+    background: #18191b;
+}
+
+.img {
+    margin: 13% 0 0 -20px;
+}
+
+.hero-r1 {
+    width: 80%;
+    padding: 150px 0 100px 0;
+}
+
+.hero-heading {
+    font-size: 75px;
+}
+
+.hero-para {
+    margin-top: 20px;
+}
+
+.button-main {
+    margin: 40px 0 0 0;
+}
+
+.hero-button {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: -5px;
+    background: #fabf68;
+    border: 2px solid #fabf68;
+}
+
+/* =================Machine-Learning-Section================= */
+
+.machine-main {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-bottom: 80px;
+    background: radial-gradient(circle at 100%, #f7a028, #fffbf7);
+}
+
+.machine-content {
+    margin: 150px 0 0 30px;
+    width: 85%;
+}
+
+.machine-content h2 {
+    color: #18191d;
+    font-size: 47px;
+}
+
+.machine-content h4 {
+    color: #18191d;
+    font-size: 43px;
+}
+
+
+.machine-content p {
+    color: #18191d;
+    font-size: 18px;
+}
+
+.machine-button {
+    background: #18191d;
+    border: 2px solid #18191d;
+    color: #ffe4cd;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.machine-img {
+    margin-top: 120px;
+}
+
+.machine-para-2 {
+    background: #18191d;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.machine-para-2 p {
+    color: #dbc3a9;
+    font-size: medium;
+    line-height: 1.3;
+}
+
+/* =================AI-Artwork-Section================= */
+
+.ai-artwork-main h1 {
+    font-size: 75px;
+    top: 120px;
+    left: 150px;
+    position: absolute;
+}
+
+.ai-artwork-main .container {
+    padding-top: 280px;
+}
+
+/* =================Commmon-Styling=================   */
+
+.common-section {
+    height: auto;
+    width: 100%;
+    background: #18191d;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.common-heading {
+    font-size: 45px;
+}
+
+.common-content {
+    width: 80%;
+}
+
+.common-link {
+    color: #fabf68;
+    font-size: 19px;
+}
+
+.custom-shape-divider-top-1699544200 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1699544200 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1699544200 .shape-fill {
+    fill: #18191d;
+}
+
+.footer-main {
+    width: 100%;
+    height: auto;
+    position:relative;
+    padding: 5dvb 0;
+    background-color: #fabf68;
+}
+
+.footer-content{
+    height: auto;
+    width: auto;
+    padding-top: 110px; 
+}
+
+.footer-heading1 {
+    color: #18191b;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.footer-heading2{
+ line-height: 1.5;
+}
+
+.social-media{
+    font-size: 35px;
+    color: #18191b;
+}
+
+.social-icons{
+    background-color: transparent;
+    padding:4rem 0 1rem 0;
+}
+
+.social-icons i{
+    font-size: 1.8rem;
+    padding: 7px;
+    transition-duration: .7s;
+    color: #18191b;
+}
+
+.social-icons i:hover{
+    color: #eee;
+}
+
+
+/* =================Making-Responsive================= */
+
+@media(max-width:998px) {
+
+    p {
+        font-size: 20px;
+    }
+
+    h2,
+    h3 {
+        font-size: 5px;
+    }
+
+    .img {
+        margin: 15% 0 0 -20px;
+    }
+
+    .hero-heading {
+        font-size: 35px;
+    }
+
+    .hero-r1 {
+        width: 90%;
+        padding: 100px 0 0px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .machine-r1 {
+        width: 90%;
+        text-align: center;
+        margin: 40px auto;
+    }
+
+    .ai-artwork-main h1 {
+        font-size: 45px;
+        position: unset;
+        padding: 70px 0 0 70px;
+        margin: 0 auto;
+    }
+
+    .ai-artwork-main .container {
+        padding-top: 0;
+    }
+
+    .common-section {
+        padding-bottom: 50px;
+    }
+
+
+    .common-content {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+}
+
+@media(max-width:665px) {
+
+    .ai-artwork-main h1 {
+        font-size: 43px;
+        position: unset;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

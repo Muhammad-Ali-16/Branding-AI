@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo-upper.png" type="image/x-icon">
+    <title>Branding-AI</title>
+
+    <!--=================BootStrap-Links=================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--=================BootStrap-Icons-Links=================-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css"
+        integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=================Fonts-Links=================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!--===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <!--=================Animate-On-Scroll(AOS)-Links=================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--=================CSS-Links=================-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--=================Header-Section=================-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-main">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="50" height="40" class="d-inline-block">
+                <h4 class="fw-bold logo-h">Branding.AI</h4>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                <span class="bi bi-list collapse-icon" onclick="openNav()"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-1 mb-lg-1 mt-2 px-5">
+                    <li class="nav-item px-3 fw-bold">
+                        <a class="nav-link" href="#home">
+                            <h5>Product</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3 fw-bold">
+                        <a class="nav-link" href="#client">
+                            <h5>About</h5>
+                        </a>
+                    </li>
+                    <li class="nav-last nav-item px-3 fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <h5>Contact</h5>
+                        </a>
+                    </li>
+                    <button class="nav-button rounded-pill ms-4 px-4 fw-bold">Get Started</button>
+                </ul>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn bi bi-x" onclick="closeNav()"></a>
+                <div class="overlay-content">
+                    <a href="#">Product</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- =================Hero-Section=================  -->
+    <section class="hero-section-main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 order-lg-0 order-1" data-aos="fade-up"><img class="img-fluid img"
+                        src="images/Hero-Section-img.jpg">
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-1 order-0" data-aos="fade-up">
+                    <div class="hero-r1">
+                        <h3 class="hero-heading fw-bold">AI-Powered Branding</h3>
+                        <p class="hero-para">Uses AI to analyze your company's brand and create a comprehensive branding
+                            strategy in minutes.
+                        </p>
+                        <div class="button-main">
+                            <a href=""><button class="hero-button rounded-pill py-3 px-5 fw-bold">Get
+                                    Started</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================Machine-Learning-Section=================  -->
+    <section class="machine-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 order-lg-0 order-2" data-aos="fade-up">
+                    <div class="machine-content">
+                        <h2>How it works</h2>
+                        <p>Branding.ai is AI-powered branding tool that uses machine learning
+                            algorithms to analyze your company's brand and create a comprehensive branding strategy.
+                            Identify your unique selling proposition, target audience, and brand messaging in minutes.
+                        </p>
+                        <div class="button-main">
+                            <a href="#"><button class="machine-button rounded-pill py-3 px-5 fw-bold">Learn
+                                    More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 order-lg-1 order-1" data-aos="fade-up">
+                    <div class="machine-img">
+                        <img src="images/machine-learning.webp" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 order-lg-2 order-0" data-aos="fade-up">
+                    <div class="machine-content">
+                        <h4 class="fw-bold">Machine learning</h4>
+                        <p>Our AI-powered tool uses machine learning algorithms to analyze your company's brand and
+                            create a comprehensive branding strategy. </p>
+                        <div class="machine-para-2 fst-italic">
+                            <p>AI-powered branding has been a game-changer for our company."- John Doe, CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- =================AI-Artwork-Section=================  -->
+    <section class="ai-artwork-main common-section">
+        <h1 data-aos="fade-up">Design Generated by AI </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="common-content">
+                        <h4 class="fw-bold" data-aos="fade-up">Step 1: AI Artwork </h4>
+                        <h3 class="common-heading fw-bold" data-aos="fade-up" data-aos-delay="50">Midjourney </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">With a simple prompt, Midjourney created the striking
+                            graphics for the website. </p>
+                        <a href="common-link https://www.midjourney.com/home?callbackUrl=%2Fexplore" target="_blank"
+                            class="common-link text-decoration-none" data-aos="fade-up"
+                            data-aos-delay="100">midjourney.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-up">
+                    <img src="images/ai-artwork.webp" width="100%" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================AI-Copy-Section================= -->
+    <section class="ai-copy-main common-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-0 order-1" data-aos="fade-up">
+                    <img src="images/ai-copy.webp" width="100%" class="img-fluid">
+                </div>
+                <div class="col-lg-5 px-lg-5 order-lg-1 order-0">
+                    <div class="common-content">
+                        <h4 class="fw-bold" data-aos="fade-up">Step 2: AI Copy </h4>
+                        <h3 class="common-heading fw-bold" data-aos="fade-up" data-aos-delay="50">Chat GPT </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">With a short text prompt Chat GPT generated the copy
+                            for the landing page. Some tweaks
+                            were
+                            necessary but it did save time. </p>
+                        <a href="https://chat.openai.com/" target="_blank" class="common-link text-decoration-none"
+                            data-aos="fade-up" data-aos-delay="100">chat.openai.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================AI-Upscaling-Section=================  -->
+    <section class="ai-upscaling-main common-section">
+        <div class="container ai-upscaling">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="common-content">
+                        <h4 class="fw-bold" data-aos="fade-up">Step 3: AI Upscaling </h4>
+                        <h3 class="common-heading fw-bold" data-aos="fade-up" data-aos-delay="50">Gigapixel
+                        </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">Gigapixel is an AI image upscaler. Using it I was
+                            able increase the resolution of the
+                            original 1024 x 1024px graphic from Midjourney to 3072 x 3072px. Without this step the
+                            graphics would be too blurry to use. </p>
+                        <a href="https://www.topazlabs.com/gigapixel-ai" target="_blank"
+                            class="common-link text-decoration-none">topazlabs.com/gigapixel-ai</a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-up">
+                    <img src="images/ai-upscaling.webp" width="100%" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================Photo-Editing-Section================= -->
+    <section class="photo-editing-main common-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-0 order-1" data-aos="fade-up">
+                    <img src="images/photo-editing.webp" width="100%" class="img-fluid">
+                </div>
+                <div class="col-lg-5 px-lg-5 order-lg-1 order-0">
+                    <div class="common-content">
+                        <h4 class="fw-bold" data-aos="fade-up">Step 4: Photo Editing </h4>
+                        <h3 class="common-heading fw-bold" data-aos="fade-up" data-aos-delay="50">Photoshop </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">Using photoshop I removed the text and isolate the
+                            head & machine graphic. </p>
+                        <a href="https://www.adobe.com/products/photoshop.html" target="_blank"
+                            class="common-link text-decoration-none">adobe.com/products/photoshop.html</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================Website-Builder-Section=================  -->
+    <section class="website-builder-main common-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="common-content">
+                        <h4 class="fw-bold" data-aos="fade-up">Step 4: Website Builder </h4>
+                        <h3 class="common-heading fw-bold" data-aos="fade-up" data-aos-delay="50">Webflow </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">With all of the assets prepared I brought everything
+                            into Webflow and designed the hero
+                            section with the AI generated image as reference. </p>
+                        <a href="https://webflow.com/dashboard?r=1&workspace=alis-workspace-9fb77e" target="_blank"
+                            class="common-link text-decoration-none">webflow.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-up">
+                    <img src="images/website-buider.webp" width="100%" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================Footer-Section=================  -->
+
+    <footer class="footer-main text-center">
+
+        <div class="custom-shape-divider-top-1699544200">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="footer-content text-decoration-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 g-4">
+                        <img src="images/logo2.webp" width="80%" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-12 g-4 d-flex flex-column">
+                        <h4 class="footer-heading1">Menu</h4>
+                        <h5 class="footer-heading2">Home</h5>
+                        <h5 class="footer-heading2">Product</h5>
+                        <h5 class="footer-heading2">About</h5>
+                        <h5 class="footer-heading2">Contact</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-12 g-4 d-flex flex-column">
+                        <h4 class="footer-heading1">Address</h4>
+                        <h5 class="footer-heading2">House no#123,<br /> Sec#A, XYZ Colony,<br />Karachi Pakistan.</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-12 g-4 d-flex flex-column">
+                        <h4 class="footer-heading1">Contacts</h4>
+                        <h5 class="footer-heading2">Phone:<br />+92 3123 5433 69 </h5>
+                        <h5 class="footer-heading2">E-Mail:<br />example123@gmail.com </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-lg-2 col-md-12"></div>
+                <div class="col-lg-8 col-md-12">
+    
+                  <h3 class="social-media" >Follow Me</h3>
+                  <a href="https://www.facebook.com/profile.php?id=100086266104286" target="_blank"><i
+                      class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/itzz.ali_raza/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://github.com/Muhammad-Ali-16" target="_blank"><i class="bi bi-github"></i></a>
+                  <p style="font-size: smaller; color: #18191b;">© ALL RIGHTS RESERVED<br />AUTHOR-MUHAMMAD ALI RAZA.</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12"></div>
+            </div>
+          </div>
+    </footer>
+
+
+    <!-- =================JavaScript-Work=================  -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+        AOS.init({
+            duration: 700,
+            once: true
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
