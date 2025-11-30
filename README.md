@@ -3,7 +3,7 @@
 Branding-AI is a simple, clean HTML/CSS template designed to help you build a modern brochure or landing page — ideal for branding, agency, or portfolio sites.
 
 ## Live Demo
-(Add the URL where you host the template — e.g. GitHub Pages)
+https://muhammad-ali-16.github.io/Branding-AI/
 
 ## Features
 - Responsive layout (desktop, tablet, mobile)  
